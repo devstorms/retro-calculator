@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13F2A8CD1C3443BF00719686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F2A8CC1C3443BF00719686 /* AppDelegate.swift */; };
+		13F2A8CF1C3443BF00719686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F2A8CE1C3443BF00719686 /* ViewController.swift */; };
+		13F2A8D21C3443BF00719686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F2A8D01C3443BF00719686 /* Main.storyboard */; };
+		13F2A8D41C3443BF00719686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F2A8D31C3443BF00719686 /* Assets.xcassets */; };
+		13F2A8D71C3443BF00719686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F2A8D51C3443BF00719686 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13F2A8C91C3443BF00719686 /* retro-calculator-lizenby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "retro-calculator-lizenby.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F2A8CC1C3443BF00719686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13F2A8CE1C3443BF00719686 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13F2A8D11C3443BF00719686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13F2A8D31C3443BF00719686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13F2A8D61C3443BF00719686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13F2A8D81C3443BF00719686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13F2A8C61C3443BF00719686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F2A8C01C3443BF00719686 = {
+			isa = PBXGroup;
+			children = (
+				13F2A8CB1C3443BF00719686 /* retro-calculator-lizenby */,
+				13F2A8CA1C3443BF00719686 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13F2A8CA1C3443BF00719686 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13F2A8C91C3443BF00719686 /* retro-calculator-lizenby.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13F2A8CB1C3443BF00719686 /* retro-calculator-lizenby */ = {
+			isa = PBXGroup;
+			children = (
+				13F2A8CC1C3443BF00719686 /* AppDelegate.swift */,
+				13F2A8CE1C3443BF00719686 /* ViewController.swift */,
+				13F2A8D01C3443BF00719686 /* Main.storyboard */,
+				13F2A8D31C3443BF00719686 /* Assets.xcassets */,
+				13F2A8D51C3443BF00719686 /* LaunchScreen.storyboard */,
+				13F2A8D81C3443BF00719686 /* Info.plist */,
+			);
+			path = "retro-calculator-lizenby";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13F2A8C81C3443BF00719686 /* retro-calculator-lizenby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F2A8DB1C3443BF00719686 /* Build configuration list for PBXNativeTarget "retro-calculator-lizenby" */;
+			buildPhases = (
+				13F2A8C51C3443BF00719686 /* Sources */,
+				13F2A8C61C3443BF00719686 /* Frameworks */,
+				13F2A8C71C3443BF00719686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "retro-calculator-lizenby";
+			productName = "retro-calculator-lizenby";
+			productReference = 13F2A8C91C3443BF00719686 /* retro-calculator-lizenby.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13F2A8C11C3443BF00719686 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Erick Lizenby";
+				TargetAttributes = {
+					13F2A8C81C3443BF00719686 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 13F2A8C41C3443BF00719686 /* Build configuration list for PBXProject "retro-calculator-lizenby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13F2A8C01C3443BF00719686;
+			productRefGroup = 13F2A8CA1C3443BF00719686 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13F2A8C81C3443BF00719686 /* retro-calculator-lizenby */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13F2A8C71C3443BF00719686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F2A8D71C3443BF00719686 /* LaunchScreen.storyboard in Resources */,
+				13F2A8D41C3443BF00719686 /* Assets.xcassets in Resources */,
+				13F2A8D21C3443BF00719686 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13F2A8C51C3443BF00719686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F2A8CF1C3443BF00719686 /* ViewController.swift in Sources */,
+				13F2A8CD1C3443BF00719686 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13F2A8D01C3443BF00719686 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13F2A8D11C3443BF00719686 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13F2A8D51C3443BF00719686 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13F2A8D61C3443BF00719686 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13F2A8D91C3443BF00719686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13F2A8DA1C3443BF00719686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13F2A8DC1C3443BF00719686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "retro-calculator-lizenby/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elizeby.retro-calculator-lizenby";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13F2A8DD1C3443BF00719686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "retro-calculator-lizenby/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elizeby.retro-calculator-lizenby";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13F2A8C41C3443BF00719686 /* Build configuration list for PBXProject "retro-calculator-lizenby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F2A8D91C3443BF00719686 /* Debug */,
+				13F2A8DA1C3443BF00719686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F2A8DB1C3443BF00719686 /* Build configuration list for PBXNativeTarget "retro-calculator-lizenby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F2A8DC1C3443BF00719686 /* Debug */,
+				13F2A8DD1C3443BF00719686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13F2A8C11C3443BF00719686 /* Project object */;
+}
